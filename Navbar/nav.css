@@ -2,7 +2,6 @@ nav {
     padding: 20px;
 }
 
-
 .navigation {
     position: fixed;
     top: 0;
@@ -44,7 +43,7 @@ nav {
 
 .logo img {
     
-    height: 140px;
+    height: 100%;
     object-fit: cover;
 
 }
@@ -73,8 +72,9 @@ nav {
 }
 
 .nav-links ul li a:hover {
-    background-color: rgba(86, 76, 76, 0.2);
-    border-radius: 5px;
+    text-decoration: underline;
+   /* background-color: rgba(86, 76, 76, 0.2);
+    border-radius: 5px; */
 }
 
 .close-btn {
