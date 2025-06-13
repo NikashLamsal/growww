@@ -3,32 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="home.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <title>Home-GrowSense</title>
+    <link href="home.css" rel="stylesheet">
+    <link href="/Navbar/nav.css" rel="stylesheet">
+
+    <title>Home - GrowSense</title>
 </head>
 <body>
 
-     <nav>
+        <nav>
         <div class="navigation">
         <div class="logo">
             <img src="Logo.png" alt="Header-logo">
         </div>
         <div class="nav-links">
-            <!-- <div class="close-btn">✕</div> -->
            <ul>
-                    <!-- <li><a href="#dashboard" class="Dashboard ">Dashboard</a></li>
-                    <li><a href="#Analysis" class="Analysis" >Analysis</a></li>
-                    <li><a href="#Control" class="control">Control</a></li>
-                    <li><a href="#Connect" class="Connect">Connect</a></li>
-                    <li><a href="#Support" class="Support">Support</a></li> -->
-                    <li><button type="button" class="btn btn-primary">Login</button></li>
+                 
+                    <li><button type="button" class="btn btn-success">Login</button></li>
+
             </ul>
         </div>
-        </div>
     </nav>
+
+
     <div class="hero-section">
-        <img src="hero.png" class="hero-img" >
+        <div class="hero-overlay">
+        <img src="herof.png" class="hero-img" alt="Lush farmland with thriving crops">
+        <!-- <div class="hero-content">
+            <a href="/loginPage/login.html" class="cta-button">Get Started</a>
+        </div> -->
+        </div>
     </div>
+
+    <div class="features-section">
+        <div class="container">
+            <h2>Tools to Grow Your Farm</h2>
+            <div class="features-grid row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <img src="crop-icon.png" alt="Crop Management Icon" class="feature-icon">
+                        <h3>Crop Management</h3>
+                        <p>Monitor soil health, track crop growth, and optimize yields with real-time data.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <img src="market-icon.png" alt="Market Insights Icon" class="feature-icon">
+                        <h3>Market Insights</h3>
+                        <p>Stay ahead with live market prices and trends for your crops.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <img src="weather-icon.gif" alt="Weather Updates Icon" class="feature-icon">
+                        <h3>Weather Updates</h3>
+                        <p>Get accurate, localized weather forecasts to plan planting and harvesting.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <img src="community-icon.gif" alt="Community Icon" class="feature-icon">
+                        <h3>Community & Resources</h3>
+                        <p>Access expert advice, farming tips, and connect with a community of growers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <div class="how-it-works-section">
+      <div class="container">
+        <h2>Get Started in 3 Easy Steps</h2>
+        <div class="steps-grid row g-4">
+            <div class="col-12 col-md-4">
+                <div class="step-card">
+                    <img src="signup.gif" alt="Sign Up Icon" class="step-icon">
+                    <h3>Sign Up</h3>
+                    <p>Create a free account in minutes.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="step-card">
+                    <img src="setup.gif" alt="Set Up Your Farm Icon" class="step-icon">
+                    <h3>Set Up Your Farm</h3>
+                    <p>Input your crops, land details, and preferences.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="step-card">
+                    <img src="smart.gif" alt="Grow Smarter Icon" class="step-icon">
+                    <h3>Grow Smarter</h3>
+                    <p>Access tools, insights, and resources to succeed.</p>
+                </div>
+            </div>
+        </div>
+        <a href="/loginPage/login.html" class="cta-button">Sign Up</a>
+    </div>
+</div>
+<footer class="footer-section">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="footer-logo">
+                    <img src="Logo.png" alt="GrowSense Logo">
+                    <p>GrowSense: Empowering farmers with tools to boost productivity and thrive.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/loginPage/login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://x.com/growsense" target="_blank" aria-label="Follow us on X"><img src="x.svg" alt="X Icon"></a>
+                    <a href="https://facebook.com/growsense" target="_blank" aria-label="Follow us on Facebook"><img src="facebook.svg" alt="Facebook Icon"></a>
+                    <a href="https://instagram.com/growsense" target="_blank" aria-label="Follow us on Instagram"><img src="insta.svg" alt="Instagram Icon"></a>
+                </div>
+                <p class="trust-text">Trusted by xyz..+ farmers worldwide</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GrowSense. All rights reserved. <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+        </div>
+    </div>
+</footer>
+
+   
 </body>
 </html>
